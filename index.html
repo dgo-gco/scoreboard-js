@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice JS</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@700&display=swap" rel="stylesheet">    
+</head>
+<body>
+    <div class="container">
+        <div class="home section">
+            <h3>HOME</h3>
+            <div class="counter" id="counter-home">0</div>
+            <div class="buttons">
+                <button onclick="add1Home()">+1</button>
+                <button onclick="add2Home()">+2</button>
+                <button onclick="add3Home()">+3</button>
+            </div>
+        </div>
+        <div class="guest section">
+            <h3>GUEST</h3>
+            <div class="counter" id="counter-guest">0</div>
+            <div class="buttons">
+                <button onclick="add1Guest()">+1</button>
+                <button onclick="add2Guest()">+2</button>
+                <button onclick="add3Guest()">+3</button>
+            </div>
+        </div>
+    </div>
+    <div class="others">
+        <div class="info-sec">
+            <div class="results">
+                <div class="winner">
+                    <div id="winning-home" >HOME</div>
+                    <div id="winning-guest">GUEST</div>
+                 </div>
+                <div class="timer">
+                 <span id="chrono">00:00:00</span>
+                </div>
+                <div class="chrono">
+                    <button id="start-btn" onclick="start()">START</button>
+                    <button id="pause-btn" onclick="pause()">PAUSE </button>
+                    <button id="reset-btn" onclick="reset()">RESET</button>
+                </div>
+            </div>
+            <button onclick="newGame()">New game</button>
+        </div>
+    </div>
+        <script src="script.js"></script>
+</body>
+</html>

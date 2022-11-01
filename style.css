@@ -1,0 +1,145 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Verdana', sans-serif;
+    font-weight: bold;
+    background-color: #151b41;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section {
+    font-family: 'Cursed Timer ULiL';
+}
+
+h3 {
+    font-size: 40px;
+    font-family: 'Verdana', sans-serif;
+    color: white;
+}
+
+.counter {
+    color: #F94F6D;
+    font-size: 90px;
+    background-color: black;
+    border-radius: 10px;
+    width: 155px;
+    height: 120px;
+    left: 337px;
+    top: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Stick No Bills', sans-serif;
+    margin-top: 21px;
+    margin-bottom: 26px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 155px;
+    height: 45px;
+}
+
+.buttons > button {
+    background-color: transparent;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    font-family: 'Stick No Bills', sans-serif;
+}
+
+.buttons > button:hover,
+.info-sec > button:hover,
+.pause-btn:hover,
+.chrono > button:hover  {
+    cursor: pointer;
+    background-color: #9AABD8;
+    border: 2px solid #151b41;
+    color: #151b41;
+}
+
+.others {
+    display: flex;
+    justify-content: center;
+}
+
+.info-sec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 26px;
+}
+
+.timer {
+    background-color: black;
+    color: #F94F6D;
+    font-family: 'Stick No Bills', sans-serif;
+    width: 135px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    border-radius: 5px;
+}
+
+.results {
+    display: flex;
+    align-items: center;
+}
+
+#winning-home,
+#winning-guest {
+    background-color: black;
+    color: rgb(47, 47, 47);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.info-sec > button {
+    background-color: #151b41;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    text-transform: uppercase;
+    padding: 15px 25px;
+    border-radius: 5px;
+    margin-top: 26px;
+}
+
+.pause-btn {
+    margin-left: 20px;
+    background-color: #151b41;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.chrono {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.chrono > button {
+    background-color: transparent;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    padding: 5px;
+}
